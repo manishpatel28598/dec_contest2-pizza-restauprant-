@@ -30,7 +30,7 @@ nav span {
     nav span{
         cursor: pointer;
         padding: 0px 15px;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
         color: lightgrey;
         display: flex;
         flex-direction:column;
@@ -38,6 +38,7 @@ nav span {
         align-items: center;
     }
     nav {
+        width: 105vw;
         position: sticky;
         justify-content: center;
         display: flex;
@@ -47,17 +48,17 @@ nav span {
         align-items: center;
     }
     .topsec {
-        width:100vw !important;
+        width:105vw !important;
         height: 100vh;
         background-image: url('https://th.bing.com/th/id/OIP.kFGYwKbYoBXrgKQLXrfcbwHaFj?rs=1&pid=ImgDetMain');
         background-size: cover !important;
         background-position: center;
         color: white;
         text-align: center;
-        padding: 20px;
+        /* padding: 20px; */
     }
     .aboutussection-2{
-        width: 90vw;
+        width: 105vw;
         display: flex;
         flex-direction: column;
         justify-content: space-around !important;
@@ -65,7 +66,7 @@ nav span {
         margin: auto;
      }
      .aboutussection-2 p{
-        width: 90vw !important;
+        width: 70vw !important;
         padding-top: 30px;
         
     }
