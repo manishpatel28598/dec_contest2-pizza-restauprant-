@@ -24,12 +24,16 @@ nav span {
     color: lightgrey;
 }
 @media screen and (max-width: 600px){
+    *{
+        margin:0px;
+        padding:0px;
+    }
     body{
         background-color: black;
     }
     nav span{
         cursor: pointer;
-        padding: 0px 15px;
+        padding: 0px 5px;
         padding-bottom: 5px;
         color: lightgrey;
         display: flex;
@@ -38,7 +42,7 @@ nav span {
         align-items: center;
     }
     nav {
-        width: 105%;
+        width: 100%;
         position: sticky;
         justify-content: center;
         display: flex;
@@ -48,17 +52,41 @@ nav span {
         align-items: center;
     }
     .topsec {
-        width:105% !important;
+        width:100% !important;
         height: 100vh;
         background-image: url('https://th.bing.com/th/id/OIP.kFGYwKbYoBXrgKQLXrfcbwHaFj?rs=1&pid=ImgDetMain');
         background-size: cover !important;
         background-position: center;
         color: white;
         text-align: center;
+        
         /* padding: 20px; */
     }
+    .topsec #midhead h1 {
+        font-size: 30px;
+        text-align: center;
+        justify-content: space-between;
+        font-weight:600;
+        font-family: 'Quattrocento', serif;
+    }
+    
+    .topsec #midhead {
+        width: 300px !important;
+        text-align: center;
+        justify-content: space-between;
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+    #lastmidhead{
+        width: 250px !important;
+        margin-left: 60px;
+        text-align: left;
+    }
+    hr {
+        border: 2px solid #f24c4c;
+    }
     .aboutussection-2{
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-around !important;
