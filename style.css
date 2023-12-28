@@ -48,7 +48,7 @@ nav span {
         align-items: center;
     }
     .topsec {
-        width:105vw !important;
+        width:100vw !important;
         height: 100vh;
         background-image: url('https://th.bing.com/th/id/OIP.kFGYwKbYoBXrgKQLXrfcbwHaFj?rs=1&pid=ImgDetMain');
         background-size: cover !important;
@@ -58,7 +58,7 @@ nav span {
         /* padding: 20px; */
     }
     .aboutussection-2{
-        width: 105vw;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         justify-content: space-around !important;
@@ -73,6 +73,13 @@ nav span {
     .aboutussection-2 img{
         width: 90vw !important;
      }
+     #menulist{
+        width:90vw !important;
+        display: flex;
+        color: white;
+        gap: 20px;
+        
+    }
      .menu #paragraph{
         text-align: left;
         color: #ffffff;
