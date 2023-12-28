@@ -6,6 +6,7 @@
 }
 body{
     background-color: black;
+    height: fit-content;
 }
 nav {
     position: sticky;
@@ -21,6 +22,105 @@ nav span {
     padding: 0px 15px;
     padding-bottom: 10px;
     color: lightgrey;
+}
+@media screen and (max-width: 600px){
+    body{
+        background-color: black;
+    }
+    nav span{
+        cursor: pointer;
+        padding: 0px 15px;
+        padding-bottom: 10px;
+        color: lightgrey;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav {
+        position: sticky;
+        justify-content: center;
+        display: flex;
+        flex-direction:column;
+        color: white;
+        background-color: black;
+        align-items: center;
+    }
+    .topsec {
+        width:100vw !important;
+        height: 100vh;
+        background-image: url('https://th.bing.com/th/id/OIP.kFGYwKbYoBXrgKQLXrfcbwHaFj?rs=1&pid=ImgDetMain');
+        background-size: cover !important;
+        background-position: center;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    .aboutussection-2{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around !important;
+        align-items: center !important;
+        margin: auto;
+     }
+     .aboutussection-2 p{
+        width: 90vw !important;
+        padding-top: 30px;
+        
+    }
+    .aboutussection-2 img{
+        width: 90vw !important;
+     }
+     .menu #paragraph{
+        text-align: left;
+        color: #ffffff;
+        margin: auto !important;
+        margin-top: 3%;
+        width: 90vw !important;
+    }
+    .sclist{
+        margin-left:10%;
+        width: 80vw;
+        height: 30vh !important;
+        white-space: nowrap;
+        overflow-x: auto;
+        scroll-behavior:smooth;
+    }
+    .gallary{
+        width: 80vw;
+        height: 70vh;
+        display: flex;
+    }
+    
+    #firstimg{
+        width: 40vw;
+        height:30vh !important;
+        gap: 50px;
+        border-radius: 0px;
+    }
+    #secondimg{
+        width: 20vw;
+        gap: 50px;
+        height:33.3vh !important;
+    }
+    #thirdimg{
+        width: 20vw;
+        height: 30vh !important;
+    }
+    .findus{
+        display: flex;
+        flex-direction: column;
+        width: 90vw !important;
+        height: 75vh !important;
+        color: #ffffff;
+    }
+    #helporlocation{
+        display: flex;
+        text-align:left !important;
+        flex-direction: column;
+        width: 80vw !important;
+    }
 }
 
 nav .icon {
