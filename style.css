@@ -42,7 +42,7 @@ nav span {
         align-items: center;
     }
     nav {
-        width: 100%;
+        /* width: 100%; */
         position: sticky;
         justify-content: center;
         display: flex;
@@ -53,7 +53,7 @@ nav span {
     }
     .topsec {
         width:100% !important;
-        height: 100vh;
+        /* height: 100vh; */
         background-image: url('https://th.bing.com/th/id/OIP.kFGYwKbYoBXrgKQLXrfcbwHaFj?rs=1&pid=ImgDetMain');
         background-size: cover !important;
         background-position: center;
@@ -79,8 +79,8 @@ nav span {
     }
     #lastmidhead{
         width: 200px !important;
-        margin:auto;
-        text-align: left;
+        /* margin:auto; */
+        text-align: center;
     }
     hr {
         border: 2px solid #f24c4c;
@@ -100,6 +100,12 @@ nav span {
     }
     .aboutussection-2 img{
         width: 90vw !important;
+     }
+     .menu-list{
+        width: 90% !important;
+        display: flex;
+        flex-direction: column;
+        
      }
      #menulist{
         width:90vw !important;
