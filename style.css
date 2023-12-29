@@ -104,8 +104,8 @@ nav span {
      .menu-list{
         width: 90% !important;
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column !important;
+
      }
      #menulist{
         width:90vw !important;
